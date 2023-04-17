@@ -29,6 +29,8 @@
     "**/*": "prettier --write --ignore-unknown"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.6.1",
+    "@commitlint/config-conventional": "^17.6.1",
     "eslint": "^8.38.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.1",

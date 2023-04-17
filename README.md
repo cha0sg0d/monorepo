@@ -24,6 +24,8 @@ In other words, use Prettier for formatting and linters for catching bugs!
 
 https://prettier.io/docs/en/install.html#git-hooks
 
+## Conventional Commits
+
 ## VSCode Settings
 
 ## Github Actions (w badge)
