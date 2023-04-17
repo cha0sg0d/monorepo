@@ -6,10 +6,11 @@
     "packages/*"
   ],
   "scripts": {
-    "test": "npm run --workspaces --if-present test",
     "format": "npm run --workspaces --if-present format",
     "format:check": "npm run --workspaces --if-present format:check",
-    "prepare": "husky install"
+    "lint": "npm run --workspaces --if-present lint",
+    "prepare": "husky install",
+    "test": "npm run --workspaces --if-present test"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
     "**/*": "prettier --write --ignore-unknown"
   },
   "devDependencies": {
+    "eslint": "^8.38.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.1",
     "prettier": "2.8.7"
