@@ -23,6 +23,9 @@
   },
   "homepage": "https://github.com/cha0sg0d/monorepo#readme",
   "lint-staged": {
+    "*.{ts,tsx,js}": [
+      "eslint --cache --fix"
+    ],
     "**/*": "prettier --write --ignore-unknown"
   },
   "devDependencies": {
