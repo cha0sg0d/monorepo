@@ -1,0 +1,2 @@
+# monorepo
+Monorepo starter kit.
