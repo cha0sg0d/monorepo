@@ -12,6 +12,8 @@ For those interested, this README will document the rationale behind each of the
 
 ## Husky + Commitlint
 
+## VSCode Settings
+
 ## Github Actions (w badge)
 
 ## Sample Typescript package
