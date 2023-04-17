@@ -6,7 +6,9 @@
     "packages/*"
   ],
   "scripts": {
-    "test": "npm run --workspaces --if-present test"
+    "test": "npm run --workspaces --if-present test",
+    "format": "npm run --workspaces --if-present format",
+    "format:check": "npm run --workspaces --if-present format:check"
   },
   "repository": {
     "type": "git",
@@ -17,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/cha0sg0d/monorepo/issues"
   },
-  "homepage": "https://github.com/cha0sg0d/monorepo#readme"
+  "homepage": "https://github.com/cha0sg0d/monorepo#readme",
+  "devDependencies": {
+    "prettier": "2.8.7"
+  }
 }

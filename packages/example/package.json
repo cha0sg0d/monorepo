@@ -4,7 +4,9 @@
   "description": "example monorepo package",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "author": "cha0sg0d",
   "license": "MIT"
