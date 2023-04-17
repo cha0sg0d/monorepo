@@ -1,4 +1,4 @@
-# Monobase 
+# Monobase
 
 This repo will provide an unopinionated, forakable template for making monorepo projects.
 
@@ -12,12 +12,15 @@ For those interested, this README will document the rationale behind each of the
 
 1. Install prettier at the top level: `npm i -D prettier`
 2. Create a prettier config file: `echo {}> .prettierrc.json`
+3. Integrate with editor.
 
 ## Eslint
 
 In other words, use Prettier for formatting and linters for catching bugs!
 
 ## Husky + Commitlint
+
+https://prettier.io/docs/en/install.html#git-hooks
 
 ## VSCode Settings
 
