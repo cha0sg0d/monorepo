@@ -1,0 +1,14 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "example monorepo package",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\""
+  },
+  "author": "cha0sg0d",
+  "license": "MIT"
+}
